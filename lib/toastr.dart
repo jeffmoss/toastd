@@ -44,7 +44,7 @@ class Toast {
     }
     document.body.elements.add(el);
 
-    window.setTimeout(() => this.fade(), defaults['timeout']);
+    window.setTimeout(() => this.fade(), defaults['timeOut']);
   }
 
   Toast.info(String message, String title) : this(message, title, {
