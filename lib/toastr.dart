@@ -63,9 +63,8 @@ class Toast {
     'iconClass' : defaults['iconClasses']['warning']
   });
 
-  // Behaviors
   void fade() {
-    new FadeOutEffect(this.el, period: 500, easing: this.ef1);
+    new FadeOutEffect(this.el, period: 500, easing: this.ef1, end: (MotionState state) => this.el.remove()).run();
   }
 }
 
