@@ -1,7 +1,6 @@
-name:  toastr
-description:  A sample application
+name:  toastd
+description:  A port of toastr to dart
 
 dependencies:
   unittest: { sdk: unittest }
   rikulo:
-
