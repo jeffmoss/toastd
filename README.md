@@ -1,7 +1,7 @@
 Toastr
 ======
 
-This is a port of toastr for dart applications. I created it to get familiar with dart.
+This is a port of toastr for dart applications. Use this to display Android-style toasts for a slick looking user interface.
 
 Usage
 -----
