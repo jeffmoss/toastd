@@ -1,5 +1,7 @@
 name:  toastd
 description:  A port of toastr to dart
+author: Jeff Moss
+homepage: https://github.com/jeffmoss/toastd
 
 dependencies:
   unittest: { sdk: unittest }
