@@ -1,9 +1,10 @@
 name:  toastd
 description:  A port of toastr to dart
+version: 1.0.0
 authors:
 - Jeff Moss <jmoss@heavyobjects.com>
 homepage: https://github.com/jeffmoss/toastd
 
 dependencies:
   unittest: { sdk: unittest }
-  rikulo:
+  rikulo: '>=0.6.0 <2.0.0'
