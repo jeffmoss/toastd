@@ -5,6 +5,6 @@ authors:
 - Jeff Moss <jmoss@heavyobjects.com>
 homepage: https://github.com/jeffmoss/toastd
 
-dependencies:
-  unittest: { sdk: unittest }
+dependencies:	
+  browser: any
   rikulo: '>=0.6.0 <2.0.0'
