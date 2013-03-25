@@ -1,6 +1,7 @@
 library toastd;
 
 import 'dart:html';
+import 'dart:async';
 import 'package:rikulo/effect.dart';
 
 class Toast {
@@ -28,7 +29,7 @@ class Toast {
   static Element getContainer() {
     if (container == null) {
       container = new Element.html("<div id='${defaults['containerId']}' class='${defaults['positionClass']}' />");
-      document.body.elements.add(container);
+      document.body.children.add(container);
     }
     return container;
   }
@@ -54,7 +55,7 @@ class Toast {
 
     Toast.getContainer().nodes.add(el);
 
-    window.setTimeout(() => this.fade(), options['timeOut']);
+    Timer timer = new Timer(new Duration(milliseconds: options['timeOut']), () => this.fade());
   }
 
   Toast.info(String message, String title) : this(message, title, {
