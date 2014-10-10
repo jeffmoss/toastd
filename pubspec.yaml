@@ -7,4 +7,5 @@ homepage: https://github.com/jeffmoss/toastd
 
 dependencies:	
   browser: any
+  unittest: any
   rikulo: '>=0.6.0 <2.0.0'
